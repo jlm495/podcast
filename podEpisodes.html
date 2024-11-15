@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engineering Analysis</title>
-    <link href="../css/normalize.css" rel="stylesheet">
-    <link href="../css/podEps.css" rel="stylesheet">
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/podEps.css" rel="stylesheet">
 </head>
 <body>
 <a class="skip-link" href="#maincontent">Skip to main content</a>
@@ -16,7 +16,7 @@
     <nav>
         <h2 class="sr-only">main navigation</h2>
         <ul>
-            <li><a href="link">Main</a></li>
+            <li><a href="./index.html">Main</a></li>
             <li><a href="link">Gallery</a></li>
             <li><a href="link">Contact</a></li>
         </ul>
@@ -24,9 +24,9 @@
     <aside>
         <h2>Other Episodes</h2>
         <ul>
-            <li><a href="http://">Ep. 1 - Raven Fixes the Drop Pod for Abby</a></li>
-            <li><a href="http://">Ep. 2 - Raven Opens the Drop Ship Door</a></li>
-            <li><a href="http://">Ep. 3 - Raven Repairs the Radio</a></li>
+            <li><a href="./podS1E1.html">Episode 1</a></li>
+            <li><a href="http://">Episode 2</a></li>
+            <li><a href="http://">Episode 3</a></li>
         </ul>
     </aside>
     <main id="maincontent">
@@ -43,7 +43,11 @@
             <h3>Watch & Listen</h3>
             <img src="./img/placeholder.jpg" alt="video / thumbnail" class="thumbnail">
             <h3>Just Listen</h3>
-            <img src="./img/placeholder.jpg" alt="play button" class="audio">
+            <audio controls></audio>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
         </section>
         <section class="EpGal">
             <h2>Episode Gallery</h2>
