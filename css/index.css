@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Roboto:ital,wght@0,700;1,700&display=swap');
+
+/* rgba() gives option for lightening/darkening */
+body{
+    /*background-color: rgba(0, 50, 255, 0.125);*/
+    /* background:gray; */
+    background:black;
+    /*background:#010440;*/
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.0em;
+    color:white;
+}
+
+main{background:#122A40;}
+header{background:#122A40;}
+
+address a:link, 
+a:active, 
+a:hover, 
+a:visited{
+    color:red;
+    text-decoration-color:red;
+}
+
+.image{
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color:white;
+    box-shadow:#505457 2px 2px 2px 2px;
+}
+
+figure{
+    font-size:small;
+    text-align:center;
+    /*max-width:35ch;*/
+}
+
+
+/* css reset */
+*, 
+*:before, 
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: "Gowun Batang", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0.5em 0.5em;
+}
+
+h2{
+    text-align:center;
+}
+
+h3{
+    font-style:italic;
+}
+
+h4{
+    font-size:1.2em;
+}
+
+p{
+    margin: 1.8em 0;
+    line-height: 1.8em
+}
+
+header,
+nav,
+main,
+aside,
+footer{
+    padding: 1.5em;
+    border: 1px white solid;
+}
+
+header,
+footer{
+    text-align: center;
+    color:white;
+}
+
+footer{
+    padding-top:0.1em;
+    background:black;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+}
+
+.skip-link:focus {
+transform: translateY(-100%);
+}
+
+.skip-link {
+/* Same as  before */
+    transition: transform 0.3s;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100vw;
+    height:100vh;
+}
+
+figcaption{
+
+    color:white;
+
+}
+
+nav{
+    background:darkred;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    position:relative;
+    line-height: 5.0em;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family:'Courier New', Courier, monospace, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 1.0em 1.0em;
+}
+nav ul li a:link{
+    color: white;
+    background:black;
+    border-color:white;
+    border-style: dashed;
+    border-width:0.25em;
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+nav ul li a:visited{
+    color: darkred;
+    background:white;
+    box-shadow:none;
+}
+
+nav ul li a:hover{
+
+    color: black;
+    text-shadow: 0.5px 0.5px gray;
+    background: white;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    border-color:darkred;
+}
+nav ul li a:active{
+    color: white;
+}
+address a:link, 
+a:active, 
+a:hover, 
+a:visited{
+    color:red;
+    text-decoration-color:red;
+}
